@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>שבט נבטים</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 400px;    /* גודל קבוע לתמונות */
+            height: 300px;   /* גובה קבוע לתמונות */
+            object-fit: cover; /* חיתוך החלקים המיותרים */
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>שבט נבטים</h1>
+    <div class="gallery">
+        <img src="עוד תמונה.jpg" alt="עוד תמונה">
+        <img src="תמונה 1.jpg" alt="תמונה 1">
+        <img src="תמונה3.jpg" alt="תמונה 3">
+        <img src="תמונה 4.jpg" alt="תמונה 4">
+    </div>
+</body>
+</html>
